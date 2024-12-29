@@ -1,0 +1,84 @@
+/* CSS BOILER PLATE */
+html, body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* universal selector */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.box{
+    width: 100px;
+    background-color: #ff0000;
+        /* rgba(255,255,255,0.5) */
+}
+
+#image{
+    width: 200px;
+    height: 100px;
+}
+/* selector */
+.projects{
+    /* property:value */
+    background-color: burlywood;
+    padding: 10PX;
+    margin: 10px;
+}
+
+/* style declaration */
+
+
+td{
+    padding: 10px;
+}
+
+h1{
+    color:brown;
+    font-size: 20px;
+}
+
+
+.first-heading{
+    color:rgb(83, 83, 252);
+}
+
+#haha{
+    color: green;
+}
+
+.apply{
+    color:aqua;
+}
+
+
+
+
+li:nth-child(odd) {
+    background-color: red;
+  }
+  
+  li:nth-child(even) {
+    background: lightgreen;
+  }
+
+
+  .navbar{
+    padding:15px;
+  }
+
+  @media  (max-width:768px) {
+    .navbar{
+        background-color: black;
+        height: 80vh;
+        display:flex;
+        flex-direction: column;
+
+    }
+
+
+  }

@@ -1,0 +1,248 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
+    <title>FrontEnd Example 2 for structuring</title>
+
+
+
+    <meta name="description" content="John Doe - Full Stack Developer | Crafting innovative web solutions with expertise in JavaScript, React, and Node.js">
+<meta name="keywords" content="web developer, full stack, JavaScript, React, Node.js, portfolio">
+<meta name="author" content="John Doe">
+
+<!-- Open Graph meta tags for social media sharing -->
+<meta property="og:title" content="John Doe | Full Stack Developer Portfolio">
+<meta property="og:description" content="Explore my projects and skills in web development, featuring responsive designs and cutting-edge technologies">
+<meta property="og:image" content="https://www.johndoe-portfolio.com/profile-image.jpg">
+<meta property="og:url" content="https://www.johndoe-portfolio.com">
+<meta property="og:type" content="website">
+
+<!-- Twitter Card meta tags -->
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="John Doe | Full Stack Developer Portfolio">
+<meta name="twitter:description" content="Discover my latest web projects and technical expertise in full stack development">
+<meta name="twitter:image" content="https://www.johndoe-portfolio.com/profile-image.jpg">
+</head>
+<body>
+ <!-- navbar -->
+  <div class="navbar" style=" position: sticky; top: 0; z-index:1;; display:flex; justify-content:space-between; height:50px; width: 100%;">
+    <p style="color: white;">Logo</p>
+    <p style="color: white;">Sign in</p>
+    <p style="color: white;">Sign up</p>
+    <p style="color: white;">Sign up</p>
+    <p style="color: white;">Sign up</p>
+    <p style="color: white;">Sign up</p>
+    <p style="color: white;">Sign up</p>
+    <p style="color: white;">Sign up</p>
+    <p style="color: white;">Sign up</p>
+    <p style="color: white;">Sign up</p>
+  </div>
+
+  <div class="header" style="height: 400px; width: 100%; background-color: beige; position: relative;">
+    <h1 style="position: absolute; right: 0; top: 0;"> Buy our bestseller products <br>
+        Tell something about yourself <br>
+    HEADER OF THE PAGE</h1>
+  </div>
+
+  <div class="skills" id="skill">
+    <h1> Skills </h1>
+    <ul>
+        <li>Front End Developer</li>
+        <li>Designer</li>
+        <li>Java Developer</li>
+        <li>SpringBoot Developer</li>
+    </ul>
+  </div>
+<br>
+<br>
+
+<br>
+
+<br>
+
+<div class="box" style="border: 1px solid black; width: 100%; ">
+  <div class="part1" style="position: relative; height: 100px; background-color: white;">
+    Hello
+  </div>
+  <div class="part2" style="position: relative; height: 100px; background-color: rgb(237, 133, 5);">wassup</div>
+</div>
+
+
+  <div class="projects" style="color: blue;">
+    <h1> Projects </h1>
+    <ul>
+        <li>Project 1</li>
+        <li>Project 2</li>
+        <li>Project 3</li>
+        <li>Project 4</li>
+    </ul>
+  </div>
+
+ <div class="EDUCATION">
+    <h1> Education</h1>
+    <ul>
+        <li>10th</li>
+        <li>12th</li>
+        <li>Graduation</li>
+      
+ </div>
+
+ <div class="experience">
+    <h1> Experience</h1>
+    <ul>
+        <li>Internship</li>
+        <li>Job</li>
+        <li>Freelancing</li>
+    </ul>
+ </div>
+
+ <div class="achievement">
+    <h1> Achievement</h1>
+    <ul>
+        <li>Gold Medal</li>
+        <li>Silver Medal</li>
+        <li>Bronze Medal</li>
+    </ul>
+    
+ </div>
+
+ <div class="socials">
+    <h1> Socials</h1>
+    <ul>
+        <li>Linkedin</li>
+        <li>GitHub</li>
+        <li>Twitter</li>
+    </ul>
+ </div>
+
+ <div class="contact-form">
+    <h1> Contact Me:</h1>
+    <form method="post" action="/routes/users/:id">
+        <label for="name">Name:</label>
+        <input type="text" required placeholder="Please enter name Ex. Accio">
+        <br>
+        <label for="email">Email:<span style="color: red;">*</span></label>
+        <input type="email" required placeholder="Please enter your email">
+        <br>
+        <label for="phone number">Description:</label>
+        <input style="width: 400px;" required 
+        type="number"  minlength="10" max="990999999999" 
+        name="phone number" placeholder="Please enter the description of 
+        project you want to build" 
+        value="99999999">
+        <button type="submit">Submit</button>
+<br>
+        <label for="subscribe">Subscribe to our newsletter</label>
+        <input type="checkbox" name="subscribe" id="subscribe" value="subscribe">
+<br>
+        <input type="file" name="file" id="file" width="100px" height="100px">
+    <br>
+    <br>
+    <p> Please enter your age range</p>
+    <label for="age">0-20</label>
+    <input type="radio" name="age" id="age" value="0-20"><br>
+    <label>21-40</label>
+    <input type="radio" name="age" id="age" value="21-40"><br>
+    <label>41-60</label>
+    <input type="radio" name="age" id="age" value="41-60"><br>
+        <select>
+            <option value="1">1</option>
+            <option value="2">2</option>
+            <option value="3">3</option>
+            <option value="4">4</option>
+        </select>
+        <br>
+        <label>Choose your Favorite color</label>
+        <input type="color" name="color" id="color" value="#ff0000">
+        <br>
+        <label> Please enter your password</label>
+        <input type="password" name="password" id="password" value="password">
+        <input type="checkbox" onClick="myFunction()">
+        <br>
+        <label> Please enter a range</label>
+        <input type="range" name="range" id="range" value="0" min="10" max="100">
+        <br>
+        <label>Please enter your DOB:</label>
+        <input type="date" value="2024-12-08">
+    </form>
+
+ </div>
+
+ <div class="footer" style="background-color: black; color: white !important; ">
+  
+<div class="links" style="display: flex; flex-direction: row; ">
+    <ul>
+        <li ><a href="#" >Home</a></li>
+        <li><a href="#skill">Skills</a></li>
+        <li>Contact</li>
+        <li>Services</li>
+    </ul>
+
+    <ul>
+        <li>Privacy Policy</li>
+        <li>Terms and Conditions</li>
+        <li>Disclaimer</li>
+        <li>FAQ</li>
+    </ul>
+
+    <ul>
+        <li>Facebook</li>
+        <li>Instagram</li>
+        <li>Twitter</li>
+        <li>LinkedIn</li>
+    </ul>
+</div>
+ </div>
+
+ <script>
+    function myFunction() {
+        var x = document.getElementById("password");
+        if (x.type === "password") {
+          x.type = "text";
+        } else {
+          x.type = "password";
+        }
+      }
+ </script>
+</body>
+</html>
+
+
+
+<!-- HTML Style Guide -->
+1> declare the document type
+  <!-- <DOCTYPE html> -->
+2> user lowercase element names
+<!-- <body></body>
+<div></div>
+<DIV></DIV> -->
+3>CLOSE ALL HTML tags
+<!-- <div> </div>
+auto close extension -->
+4> use lowercase attribute names 
+<input href="https://google.com">
+5> use double quotes for attribute values
+<!-- <input type=text > -->
+ 6> image tags-> alt, width and height
+ <!-- <img src="./snowman.png" alt="snowman"> -->
+7> use spaces as much as you want to organise the code
+<!-- <h1         style=""      class="banner-photo"></h1> -->
+<!-- class="banner-photo"style="color: red;" -->
+<!-- self closing tags 
+img, br, input, hr, meta, link -->
+8> avoid long code lines
+<!-- <p>
+pflhflhf
+fh[ofh[ofh]]
+opfpfj <br>
+pfjpjf4
+
+
+</p> -->
+<!-- Alt +Z -> to wrap the code -->
+ 9> NEVER SKIP HEAD TAGS -> title, meta, link, style, script
+ <!-- ! + Tab -> to create a boilerplate -->
+    10> use comments to explain the code
+
